@@ -29,7 +29,7 @@ public class TestA extends BaseTest {
 
     }
 
-    @Test(groups = TestGroups.SANITY)
+    @Test(enabled = false, groups = TestGroups.SANITY)
     public void secondWebSiteA() throws Exception {
         Thread.sleep(1000);
         System.out.println("I am in SecondTestCaseA case from TestA Class");

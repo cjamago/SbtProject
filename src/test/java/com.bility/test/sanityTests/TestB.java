@@ -13,7 +13,7 @@ public class TestB {
         System.out.println("I am in FirstTestCaseB case from TestB Class");
     }
 
-    @Test(groups = TestGroups.SANITY)
+    @Test(enabled = false, groups = TestGroups.SANITY)
     public void secondTestCaseB() {
         try {
             Thread.sleep(500);
