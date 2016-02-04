@@ -1,12 +1,2 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(SetSuite, org.scalatest.tools.Framework$$anon$1@f175e19, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(Chrome, org.scalatest.tools.Framework$$anon$1@f175e19, false, [SuiteSelector])[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 33 seconds, 1 milliseconds.[0m[0m
-[0m[[0minfo[0m] [0m[36mTotal number of tests run: 13[0m[0m
-[0m[[0minfo[0m] [0m[36mSuites: completed 2, aborted 0[0m[0m
-[0m[[0minfo[0m] [0m[36mTests: succeeded 11, failed 2, canceled 0, ignored 1, pending 0[0m[0m
-[0m[[0minfo[0m] [0m[31m*** 2 TESTS FAILED ***[0m[0m
-[0m[[0mdebug[0m] [0mPassed tests:[0m
-[0m[[0mdebug[0m] [0m	SetSuite[0m
-[0m[[31merror[0m] [0mFailed tests:[0m
-[0m[[31merror[0m] [0m	Chrome[0m
-[0m[[31merror[0m] [0m(test:[31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(Chrome, org.scalatest.tools.Framework$$anon$1@3c313da5, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(SetSuite, org.scalatest.tools.Framework$$anon$1@3c313da5, false, [SuiteSelector])[0m

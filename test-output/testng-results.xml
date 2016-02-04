@@ -2,15 +2,15 @@
 <testng-results skipped="1" failed="2" total="12" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Main Test Suite" duration-ms="16510" started-at="2016-02-04T10:44:12Z" finished-at="2016-02-04T10:44:29Z">
+  <suite name="Main Test Suite" duration-ms="17104" started-at="2016-02-04T11:10:50Z" finished-at="2016-02-04T11:11:07Z">
     <groups>
       <group name="smoke">
-        <method signature="YahooTest.yahooSearch()[pri:0, instance:com.bility.test.regressionTests.YahooTest@7034c028]" name="yahooSearch" class="com.bility.test.regressionTests.YahooTest"/>
+        <method signature="YahooTest.yahooSearch()[pri:0, instance:com.bility.test.regressionTests.YahooTest@38fdfec4]" name="yahooSearch" class="com.bility.test.regressionTests.YahooTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test name="Regression Test Group" duration-ms="16510" started-at="2016-02-04T10:44:12Z" finished-at="2016-02-04T10:44:29Z">
+    <test name="Regression Test Group" duration-ms="17104" started-at="2016-02-04T11:10:50Z" finished-at="2016-02-04T11:11:07Z">
       <class name="com.bility.test.regressionTests.YahooTest">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.regressionTests.YahooTest@7034c028]" name="setUp" is-config="true" duration-ms="11638" started-at="2016-02-04T10:44:12Z" finished-at="2016-02-04T10:44:24Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.regressionTests.YahooTest@38fdfec4]" name="setUp" is-config="true" duration-ms="12380" started-at="2016-02-04T11:10:50Z" finished-at="2016-02-04T11:11:02Z">
           <params>
             <param index="0">
               <value>
@@ -26,38 +26,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="yahooSearch()[pri:0, instance:com.bility.test.regressionTests.YahooTest@7034c028]" name="yahooSearch" duration-ms="4679" started-at="2016-02-04T10:44:24Z" finished-at="2016-02-04T10:44:28Z">
+        <test-method status="PASS" signature="yahooSearch()[pri:0, instance:com.bility.test.regressionTests.YahooTest@38fdfec4]" name="yahooSearch" duration-ms="4596" started-at="2016-02-04T11:11:02Z" finished-at="2016-02-04T11:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- yahooSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.regressionTests.YahooTest@7034c028]" name="tearDown" is-config="true" duration-ms="172" started-at="2016-02-04T10:44:28Z" finished-at="2016-02-04T10:44:29Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.regressionTests.YahooTest@38fdfec4]" name="tearDown" is-config="true" duration-ms="107" started-at="2016-02-04T11:11:07Z" finished-at="2016-02-04T11:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bility.test.regressionTests.YahooTest -->
     </test> <!-- Regression Test Group -->
   </suite> <!-- Main Test Suite -->
-  <suite name="Main Test Suite (0)" duration-ms="15686" started-at="2016-02-04T10:44:29Z" finished-at="2016-02-04T10:44:44Z">
+  <suite name="Main Test Suite (0)" duration-ms="14342" started-at="2016-02-04T11:11:07Z" finished-at="2016-02-04T11:11:21Z">
     <groups>
       <group name="smoke">
-        <method signature="TestA.firstTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="firstTestCaseA" class="com.bility.test.sanityTests.TestA"/>
+        <method signature="TestA.firstTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="firstTestCaseA" class="com.bility.test.sanityTests.TestA"/>
       </group> <!-- smoke -->
       <group name="sanity">
-        <method signature="TestA.secondWebSiteA()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="secondWebSiteA" class="com.bility.test.sanityTests.TestA"/>
-        <method signature="TestA.testYahooSearch()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="testYahooSearch" class="com.bility.test.sanityTests.TestA"/>
-        <method signature="TestA.thirdTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="thirdTestCaseA" class="com.bility.test.sanityTests.TestA"/>
-        <method signature="TestB.fifthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="fifthTestCaseB" class="com.bility.test.sanityTests.TestB"/>
-        <method signature="TestB.firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="firstTestCaseB" class="com.bility.test.sanityTests.TestB"/>
-        <method signature="TestB.fourthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="fourthTestCaseB" class="com.bility.test.sanityTests.TestB"/>
-        <method signature="TestB.secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="secondTestCaseB" class="com.bility.test.sanityTests.TestB"/>
-        <method signature="TestB.thirdTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="thirdTestCaseB" class="com.bility.test.sanityTests.TestB"/>
-        <method signature="TestC.firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@77d0f17b]" name="firstTestCaseB" class="com.bility.test.sanityTests.TestC"/>
-        <method signature="TestC.secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@77d0f17b]" name="secondTestCaseB" class="com.bility.test.sanityTests.TestC"/>
+        <method signature="TestA.secondWebSiteA()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="secondWebSiteA" class="com.bility.test.sanityTests.TestA"/>
+        <method signature="TestA.testYahooSearch()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="testYahooSearch" class="com.bility.test.sanityTests.TestA"/>
+        <method signature="TestA.thirdTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="thirdTestCaseA" class="com.bility.test.sanityTests.TestA"/>
+        <method signature="TestB.fifthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="fifthTestCaseB" class="com.bility.test.sanityTests.TestB"/>
+        <method signature="TestB.firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="firstTestCaseB" class="com.bility.test.sanityTests.TestB"/>
+        <method signature="TestB.fourthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="fourthTestCaseB" class="com.bility.test.sanityTests.TestB"/>
+        <method signature="TestB.secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="secondTestCaseB" class="com.bility.test.sanityTests.TestB"/>
+        <method signature="TestB.thirdTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="thirdTestCaseB" class="com.bility.test.sanityTests.TestB"/>
+        <method signature="TestC.firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@25ea1597]" name="firstTestCaseB" class="com.bility.test.sanityTests.TestC"/>
+        <method signature="TestC.secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@25ea1597]" name="secondTestCaseB" class="com.bility.test.sanityTests.TestC"/>
       </group> <!-- sanity -->
     </groups>
-    <test name="Sanity Test Group" duration-ms="15686" started-at="2016-02-04T10:44:29Z" finished-at="2016-02-04T10:44:44Z">
+    <test name="Sanity Test Group" duration-ms="14342" started-at="2016-02-04T11:11:07Z" finished-at="2016-02-04T11:11:21Z">
       <class name="com.bility.test.sanityTests.TestA">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="setUp" is-config="true" duration-ms="10419" started-at="2016-02-04T10:44:29Z" finished-at="2016-02-04T10:44:39Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="setUp" is-config="true" duration-ms="9123" started-at="2016-02-04T11:11:07Z" finished-at="2016-02-04T11:11:16Z">
           <params>
             <param index="0">
               <value>
@@ -73,32 +73,32 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="firstTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="firstTestCaseA" duration-ms="2004" started-at="2016-02-04T10:44:39Z" finished-at="2016-02-04T10:44:41Z">
+        <test-method status="PASS" signature="firstTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="firstTestCaseA" duration-ms="2002" started-at="2016-02-04T11:11:16Z" finished-at="2016-02-04T11:11:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestCaseA -->
-        <test-method status="FAIL" signature="secondWebSiteA()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="secondWebSiteA" duration-ms="1029" started-at="2016-02-04T10:44:41Z" finished-at="2016-02-04T10:44:42Z">
+        <test-method status="FAIL" signature="secondWebSiteA()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="secondWebSiteA" duration-ms="1045" started-at="2016-02-04T11:11:18Z" finished-at="2016-02-04T11:11:19Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to locate element: {"method":"id","selector":"test"}
-Command duration or timeout: 16 milliseconds
+Command duration or timeout: 36 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.49.1', revision: '808c23b0963853d375cbe54b90bbd052e2528a54', time: '2016-01-21 09:37:52'
 System info: host: 'thunderdome', ip: '192.168.0.7', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ff23ce78-3f5c-9c40-ab26-b507e3dbe124
+Session ID: b83d22aa-ff52-d746-97ec-273afd6319a1
 *** Element info: {Using=id, value=test}]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"id","selector":"test"}
-Command duration or timeout: 16 milliseconds
+Command duration or timeout: 36 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '2.49.1', revision: '808c23b0963853d375cbe54b90bbd052e2528a54', time: '2016-01-21 09:37:52'
 System info: host: 'thunderdome', ip: '192.168.0.7', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: ff23ce78-3f5c-9c40-ab26-b507e3dbe124
+Session ID: b83d22aa-ff52-d746-97ec-273afd6319a1
 *** Element info: {Using=id, value=test}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -130,44 +130,44 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '2.49.1', revision: '808c23b0963853d375cbe54b90bbd052e2528a54', time: '2016-01-21 09:37:52'
 System info: host: 'thunderdome', ip: '192.168.0.7', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.10.5', java.version: '1.8.0_45'
 Driver info: driver.version: unknown
-	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10681)
-	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10690)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12557)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12562)
-	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12504)
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous9066961998433888491webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10681)
+	at <anonymous class>.FirefoxDriver.prototype.findElement(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous9066961998433888491webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10690)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous9066961998433888491webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12557)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous9066961998433888491webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12562)
+	at <anonymous class>.DelayedCommand.prototype.execute/<(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous9066961998433888491webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12504)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondWebSiteA -->
-        <test-method status="PASS" signature="testYahooSearch()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="testYahooSearch" duration-ms="24" started-at="2016-02-04T10:44:42Z" finished-at="2016-02-04T10:44:42Z">
+        <test-method status="PASS" signature="testYahooSearch()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="testYahooSearch" duration-ms="37" started-at="2016-02-04T11:11:19Z" finished-at="2016-02-04T11:11:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testYahooSearch -->
-        <test-method status="PASS" signature="thirdTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="thirdTestCaseA" duration-ms="2005" started-at="2016-02-04T10:44:42Z" finished-at="2016-02-04T10:44:44Z">
+        <test-method status="PASS" signature="thirdTestCaseA()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="thirdTestCaseA" duration-ms="2005" started-at="2016-02-04T11:11:19Z" finished-at="2016-02-04T11:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestCaseA -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.sanityTests.TestA@44543052]" name="tearDown" is-config="true" duration-ms="187" started-at="2016-02-04T10:44:44Z" finished-at="2016-02-04T10:44:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.bility.test.sanityTests.TestA@1bc7e9e2]" name="tearDown" is-config="true" duration-ms="117" started-at="2016-02-04T11:11:21Z" finished-at="2016-02-04T11:11:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.bility.test.sanityTests.TestA -->
       <class name="com.bility.test.sanityTests.TestB">
-        <test-method status="PASS" signature="fifthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="fifthTestCaseB" duration-ms="2020" started-at="2016-02-04T10:44:29Z" finished-at="2016-02-04T10:44:31Z">
+        <test-method status="PASS" signature="fifthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="fifthTestCaseB" duration-ms="2006" started-at="2016-02-04T11:11:07Z" finished-at="2016-02-04T11:11:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fifthTestCaseB -->
-        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="firstTestCaseB" duration-ms="2002" started-at="2016-02-04T10:44:31Z" finished-at="2016-02-04T10:44:33Z">
+        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="firstTestCaseB" duration-ms="2005" started-at="2016-02-04T11:11:09Z" finished-at="2016-02-04T11:11:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestCaseB -->
-        <test-method status="PASS" signature="fourthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="fourthTestCaseB" duration-ms="2004" started-at="2016-02-04T10:44:33Z" finished-at="2016-02-04T10:44:35Z">
+        <test-method status="PASS" signature="fourthTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="fourthTestCaseB" duration-ms="2001" started-at="2016-02-04T11:11:11Z" finished-at="2016-02-04T11:11:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTestCaseB -->
-        <test-method status="FAIL" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="secondTestCaseB" duration-ms="505" started-at="2016-02-04T10:44:35Z" finished-at="2016-02-04T10:44:35Z">
+        <test-method status="FAIL" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="secondTestCaseB" duration-ms="503" started-at="2016-02-04T11:11:13Z" finished-at="2016-02-04T11:11:13Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing this Test]]>
@@ -195,17 +195,17 @@ Driver info: driver.version: unknown
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestCaseB -->
-        <test-method status="PASS" signature="thirdTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@6d20866d]" name="thirdTestCaseB" duration-ms="2005" started-at="2016-02-04T10:44:35Z" finished-at="2016-02-04T10:44:37Z">
+        <test-method status="PASS" signature="thirdTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestB@50c39ab7]" name="thirdTestCaseB" duration-ms="2001" started-at="2016-02-04T11:11:13Z" finished-at="2016-02-04T11:11:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestCaseB -->
       </class> <!-- com.bility.test.sanityTests.TestB -->
       <class name="com.bility.test.sanityTests.TestC">
-        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@77d0f17b]" name="firstTestCaseB" duration-ms="108" started-at="2016-02-04T10:44:29Z" finished-at="2016-02-04T10:44:29Z">
+        <test-method status="PASS" signature="firstTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@25ea1597]" name="firstTestCaseB" duration-ms="105" started-at="2016-02-04T11:11:07Z" finished-at="2016-02-04T11:11:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTestCaseB -->
-        <test-method status="SKIP" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@77d0f17b]" name="secondTestCaseB" duration-ms="5005" started-at="2016-02-04T10:44:29Z" finished-at="2016-02-04T10:44:34Z">
+        <test-method status="SKIP" signature="secondTestCaseB()[pri:0, instance:com.bility.test.sanityTests.TestC@25ea1597]" name="secondTestCaseB" duration-ms="5003" started-at="2016-02-04T11:11:07Z" finished-at="2016-02-04T11:11:12Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping this test with exception]]>
