@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="SBT: com.saucelabs:saucerest:1.0.28:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.saucelabs/saucerest/jars/saucerest-1.0.28.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.saucelabs/saucerest/docs/saucerest-1.0.28-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.saucelabs/saucerest/srcs/saucerest-1.0.28-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

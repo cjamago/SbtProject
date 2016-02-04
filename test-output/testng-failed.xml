@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Main Test Suite (0)]" parallel="classes">
+  <parameter name="appURL" value="https://uk.yahoo.com/"/>
+  <parameter name="browserType" value="safari"/>
+  <listeners>
+    <listener class-name="com.bility.framework.TestNGCustomReportListener"/>
+  </listeners>
+  <test name="Sanity Test Group">
+    <groups>
+      <define name="all">
+        <include name="sanity"/>
+        <include name="functest"/>
+      </define> <!-- all -->
+      <define name="functest">
+        <include name="smoke"/>
+      </define> <!-- functest -->
+      <run>
+        <include name="all"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.bility.test.sanityTests.*"/>
+    </packages>
+    <classes>
+      <class name="com.bility.test.sanityTests.TestA"/>
+      <class name="com.bility.test.sanityTests.TestB"/>
+      <class name="com.bility.test.sanityTests.TestC"/>
+    </classes>
+  </test> <!-- Sanity Test Group -->
+  <test name="Sanity Test Group(failed)" parallel="classes">
+    <groups>
+      <run>
+        <include name="all"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.bility.test.sanityTests.TestA">
+        <methods>
+          <include name="tearDown"/>
+          <include name="secondWebSiteA"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bility.test.sanityTests.TestA -->
+      <class name="com.bility.test.sanityTests.TestB">
+        <methods>
+          <include name="secondTestCaseB"/>
+        </methods>
+      </class> <!-- com.bility.test.sanityTests.TestB -->
+      <class name="com.bility.test.sanityTests.TestC">
+        <methods>
+          <include name="secondTestCaseB"/>
+        </methods>
+      </class> <!-- com.bility.test.sanityTests.TestC -->
+    </classes>
+  </test> <!-- Sanity Test Group(failed) -->
+</suite> <!-- Failed suite [Main Test Suite (0)] -->

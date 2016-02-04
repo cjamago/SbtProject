@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">2 suites, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Main_Test_Suite">
+              <span class="suite-name border-passed">Main Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Main_Test_Suite">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Main_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Main_Test_Suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Main_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Main_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Main_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Main_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Main_Test_Suite" class="hide-methods passed suite-Main_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Main_Test_Suite -->
+                      <a href="#" panel-name="suite-Main_Test_Suite" class="show-methods passed suite-Main_Test_Suite"> (show)</a> <!-- show-methods passed suite-Main_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Main_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite" title="com.bility.test.regressionTests.YahooTest" hash-for-method="yahooSearch">yahooSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Main_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Main_Test_Suite_(0)">
+              <span class="suite-name border-failed">Main Test Suite (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Main_Test_Suite_(0)">
+                    <span>sanity.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Main_Test_Suite_(0)">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Main_Test_Suite_(0)">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Main_Test_Suite_(0)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Main_Test_Suite_(0)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Main_Test_Suite_(0)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Main_Test_Suite_(0)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">11 methods, 2 failed,  1 skipped,  8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Main_Test_Suite_(0)" class="hide-methods failed suite-Main_Test_Suite_(0)"> (hide)</a> <!-- hide-methods failed suite-Main_Test_Suite_(0) -->
+                      <a href="#" panel-name="suite-Main_Test_Suite_(0)" class="show-methods failed suite-Main_Test_Suite_(0)"> (show)</a> <!-- show-methods failed suite-Main_Test_Suite_(0) -->
+                    </span>
+                    <div class="method-list-content failed suite-Main_Test_Suite_(0)">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestB" hash-for-method="secondTestCaseB">secondTestCaseB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestA" hash-for-method="secondWebSiteA">secondWebSiteA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Main_Test_Suite_(0) -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Main_Test_Suite_(0)" class="hide-methods skipped suite-Main_Test_Suite_(0)"> (hide)</a> <!-- hide-methods skipped suite-Main_Test_Suite_(0) -->
+                      <a href="#" panel-name="suite-Main_Test_Suite_(0)" class="show-methods skipped suite-Main_Test_Suite_(0)"> (show)</a> <!-- show-methods skipped suite-Main_Test_Suite_(0) -->
+                    </span>
+                    <div class="method-list-content skipped suite-Main_Test_Suite_(0)">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestC" hash-for-method="secondTestCaseB">secondTestCaseB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Main_Test_Suite_(0) -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Main_Test_Suite_(0)" class="hide-methods passed suite-Main_Test_Suite_(0)"> (hide)</a> <!-- hide-methods passed suite-Main_Test_Suite_(0) -->
+                      <a href="#" panel-name="suite-Main_Test_Suite_(0)" class="show-methods passed suite-Main_Test_Suite_(0)"> (show)</a> <!-- show-methods passed suite-Main_Test_Suite_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-Main_Test_Suite_(0)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestB" hash-for-method="fifthTestCaseB">fifthTestCaseB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestA" hash-for-method="firstTestCaseA">firstTestCaseA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestC" hash-for-method="firstTestCaseB">firstTestCaseB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestB" hash-for-method="firstTestCaseB">firstTestCaseB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestB" hash-for-method="fourthTestCaseB">fourthTestCaseB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestA" hash-for-method="testYahooSearch">testYahooSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestA" hash-for-method="thirdTestCaseA">thirdTestCaseA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Main_Test_Suite_(0)" title="com.bility.test.sanityTests.TestB" hash-for-method="thirdTestCaseB">thirdTestCaseB</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Main_Test_Suite_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Main_Test_Suite" class="panel Main_Test_Suite">
+          <div class="suite-Main_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bility.test.regressionTests.YahooTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="yahooSearch">
+                  </a> <!-- yahooSearch -->
+                  <span class="method-name">yahooSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite-class-passed -->
+        </div> <!-- panel Main_Test_Suite -->
+        <div panel-name="suite-Main_Test_Suite_(0)" class="panel Main_Test_Suite_(0)">
+          <div class="suite-Main_Test_Suite_(0)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bility.test.sanityTests.TestA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondWebSiteA">
+                  </a> <!-- secondWebSiteA -->
+                  <span class="method-name">secondWebSiteA</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;test&quot;}
+Command duration or timeout: 16 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.49.1&apos;, revision: &apos;808c23b0963853d375cbe54b90bbd052e2528a54&apos;, time: &apos;2016-01-21 09:37:52&apos;
+System info: host: &apos;thunderdome&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=44.0, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff23ce78-3f5c-9c40-ab26-b507e3dbe124
+*** Element info: {Using=id, value=test}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at com.bility.test.sanityTests.TestA.secondWebSiteA(TestA.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;test&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.49.1&apos;, revision: &apos;808c23b0963853d375cbe54b90bbd052e2528a54&apos;, time: &apos;2016-01-21 09:37:52&apos;
+System info: host: &apos;thunderdome&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.10.5&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10681)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10690)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12557)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12562)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///var/folders/tn/npj2xyrx77j8vdt2w4tbkhq9_ppt4b/T/anonymous7468467962819392264webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12504)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite_(0)-class-failed -->
+          <div class="suite-Main_Test_Suite_(0)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.bility.test.sanityTests.TestB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondTestCaseB">
+                  </a> <!-- secondTestCaseB -->
+                  <span class="method-name">secondTestCaseB</span>
+                  <div class="stack-trace">java.lang.AssertionError: Failing this Test
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.bility.test.sanityTests.TestB.secondTestCaseB(TestB.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite_(0)-class-failed -->
+          <div class="suite-Main_Test_Suite_(0)-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.bility.test.sanityTests.TestC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="secondTestCaseB">
+                  </a> <!-- secondTestCaseB -->
+                  <span class="method-name">secondTestCaseB</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping this test with exception
+	at com.bility.test.sanityTests.TestC.secondTestCaseB(TestC.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite_(0)-class-skipped -->
+          <div class="suite-Main_Test_Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bility.test.sanityTests.TestA</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstTestCaseA">
+                  </a> <!-- firstTestCaseA -->
+                  <span class="method-name">firstTestCaseA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testYahooSearch">
+                  </a> <!-- testYahooSearch -->
+                  <span class="method-name">testYahooSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thirdTestCaseA">
+                  </a> <!-- thirdTestCaseA -->
+                  <span class="method-name">thirdTestCaseA</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite_(0)-class-passed -->
+          <div class="suite-Main_Test_Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bility.test.sanityTests.TestB</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fifthTestCaseB">
+                  </a> <!-- fifthTestCaseB -->
+                  <span class="method-name">fifthTestCaseB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstTestCaseB">
+                  </a> <!-- firstTestCaseB -->
+                  <span class="method-name">firstTestCaseB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fourthTestCaseB">
+                  </a> <!-- fourthTestCaseB -->
+                  <span class="method-name">fourthTestCaseB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="thirdTestCaseB">
+                  </a> <!-- thirdTestCaseB -->
+                  <span class="method-name">thirdTestCaseB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite_(0)-class-passed -->
+          <div class="suite-Main_Test_Suite_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bility.test.sanityTests.TestC</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="firstTestCaseB">
+                  </a> <!-- firstTestCaseB -->
+                  <span class="method-name">firstTestCaseB</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Main_Test_Suite_(0)-class-passed -->
+        </div> <!-- panel Main_Test_Suite_(0) -->
+        <div panel-name="test-xml-Main_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chijiokea/fakeSmtpServer/SbtProject/src/test/resources/xml/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;Main Test Suite&quot; parallel=&quot;classes&quot;&gt;
+  &lt;parameter name=&quot;browserType&quot; value=&quot;htmlunit&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bility.framework.TestNGCustomReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Regression Test Group&quot;&gt;
+    &lt;parameter name=&quot;appURL&quot; value=&quot;https://uk.yahoo.com/&quot;/&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.bility.test.regressionTests.*&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bility.test.regressionTests.YahooTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Test Group --&gt;
+&lt;/suite&gt; &lt;!-- Main Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Main_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/chijiokea/fakeSmtpServer/SbtProject/src/test/resources/xml/sanity.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;5&quot; name=&quot;Main Test Suite (0)&quot; parallel=&quot;classes&quot;&gt;
+  &lt;parameter name=&quot;appURL&quot; value=&quot;https://uk.yahoo.com/&quot;/&gt;
+  &lt;parameter name=&quot;browserType&quot; value=&quot;safari&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bility.framework.TestNGCustomReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Sanity Test Group&quot;&gt;
+    &lt;groups&gt;
+      &lt;define name=&quot;all&quot;&gt;
+        &lt;include name=&quot;sanity&quot;/&gt;
+        &lt;include name=&quot;functest&quot;/&gt;
+      &lt;/define&gt; &lt;!-- all --&gt;
+      &lt;define name=&quot;functest&quot;&gt;
+        &lt;include name=&quot;smoke&quot;/&gt;
+      &lt;/define&gt; &lt;!-- functest --&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;all&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;packages&gt;
+      &lt;package name=&quot;com.bility.test.sanityTests.*&quot;/&gt;
+    &lt;/packages&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bility.test.sanityTests.TestA&quot;/&gt;
+      &lt;class name=&quot;com.bility.test.sanityTests.TestB&quot;/&gt;
+      &lt;class name=&quot;com.bility.test.sanityTests.TestC&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Test Group --&gt;
+  &lt;test name=&quot;Sanity Test Group(failed)&quot; parallel=&quot;classes&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;all&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bility.test.sanityTests.TestA&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;tearDown&quot;/&gt;
+          &lt;include name=&quot;secondWebSiteA&quot;/&gt;
+          &lt;include name=&quot;setUp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.bility.test.sanityTests.TestA --&gt;
+      &lt;class name=&quot;com.bility.test.sanityTests.TestB&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;secondTestCaseB&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.bility.test.sanityTests.TestB --&gt;
+      &lt;class name=&quot;com.bility.test.sanityTests.TestC&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;secondTestCaseB&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.bility.test.sanityTests.TestC --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Test Group(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Main Test Suite (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Main_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Main Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test Group (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Main_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Main Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sanity Test Group (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Sanity Test Group(failed) (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Main_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Main Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">firstTestCaseA</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">yahooSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Main_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Main Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">fifthTestCaseB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">firstTestCaseB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">fourthTestCaseB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">secondTestCaseB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">secondWebSiteA</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testYahooSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">thirdTestCaseA</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">thirdTestCaseB</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">firstTestCaseA</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">yahooSearch</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Main_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Main Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Main_Test_Suite');
+function tableData_Main_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'yahooSearch')
+data.setCell(0, 2, 'com.bility.test.regressionTests.YahooTest')
+data.setCell(0, 3, 4679);
+window.suiteTableData['Main_Test_Suite']= { tableData: data, tableDiv: 'times-div-Main_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Main_Test_Suite">
+              </div> <!-- times-div-Main_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Main_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Main Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Main_Test_Suite_(0)');
+function tableData_Main_Test_Suite_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(11);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'secondTestCaseB')
+data.setCell(0, 2, 'com.bility.test.sanityTests.TestC')
+data.setCell(0, 3, 5005);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'fifthTestCaseB')
+data.setCell(1, 2, 'com.bility.test.sanityTests.TestB')
+data.setCell(1, 3, 2020);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'thirdTestCaseB')
+data.setCell(2, 2, 'com.bility.test.sanityTests.TestB')
+data.setCell(2, 3, 2005);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'thirdTestCaseA')
+data.setCell(3, 2, 'com.bility.test.sanityTests.TestA')
+data.setCell(3, 3, 2005);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fourthTestCaseB')
+data.setCell(4, 2, 'com.bility.test.sanityTests.TestB')
+data.setCell(4, 3, 2004);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'firstTestCaseA')
+data.setCell(5, 2, 'com.bility.test.sanityTests.TestA')
+data.setCell(5, 3, 2004);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'firstTestCaseB')
+data.setCell(6, 2, 'com.bility.test.sanityTests.TestB')
+data.setCell(6, 3, 2002);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'secondWebSiteA')
+data.setCell(7, 2, 'com.bility.test.sanityTests.TestA')
+data.setCell(7, 3, 1029);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'secondTestCaseB')
+data.setCell(8, 2, 'com.bility.test.sanityTests.TestB')
+data.setCell(8, 3, 505);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'firstTestCaseB')
+data.setCell(9, 2, 'com.bility.test.sanityTests.TestC')
+data.setCell(9, 3, 108);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testYahooSearch')
+data.setCell(10, 2, 'com.bility.test.sanityTests.TestA')
+data.setCell(10, 3, 24);
+window.suiteTableData['Main_Test_Suite_(0)']= { tableData: data, tableDiv: 'times-div-Main_Test_Suite_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <div id="times-div-Main_Test_Suite_(0)">
+              </div> <!-- times-div-Main_Test_Suite_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Main_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Main Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Main_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Main Test Suite (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Main_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Main_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Main_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bility.test.regressionTests.YahooTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(htmlunit, https://uk.yahoo.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">yahooSearch</span>
+                <span class="method-start">11643 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16324 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Main_Test_Suite_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bility.test.sanityTests.TestA</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(safari, https://uk.yahoo.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bility.test.sanityTests.TestB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">fifthTestCaseB</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bility.test.sanityTests.TestC</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">firstTestCaseB</span>
+                <span class="method-start">22 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">secondTestCaseB</span>
+                <span class="method-start">132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bility.test.sanityTests.TestB</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">firstTestCaseB</span>
+                <span class="method-start">2027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fourthTestCaseB</span>
+                <span class="method-start">4031 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">secondTestCaseB</span>
+                <span class="method-start">6038 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thirdTestCaseB</span>
+                <span class="method-start">6557 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bility.test.sanityTests.TestA</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">firstTestCaseA</span>
+                <span class="method-start">10420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">secondWebSiteA</span>
+                <span class="method-start">12425 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testYahooSearch</span>
+                <span class="method-start">13461 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">thirdTestCaseA</span>
+                <span class="method-start">13486 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15492 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
